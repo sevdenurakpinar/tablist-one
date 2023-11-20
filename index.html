@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="tabContainer">
+        <div class="tab-all">
+            <button id="btnTab1" class="tabButton" onclick="showTab('tab1', 'btnTab1')">London</button>
+            <button id="btnTab2" class="tabButton" onclick="showTab('tab2', 'btnTab2')">Paris</button>
+            <button id="btnTab3" class="tabButton" onclick="showTab('tab3', 'btnTab3')">Tokyo</button>
+        </div>
+        <div class="content-container">
+            <div class="content-all">
+                <div id="tab1" class="tabContent">
+                    <h2>London</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ullam nesciunt commodi error,
+                        officiis incidunt exercitationem nostrum sit odio animi?</p>
+                </div>
+                <div id="tab2" class="tabContent">
+                    <h2>Paris</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse, laudantium.</p>
+                </div>
+                <div id="tab3" class="tabContent">
+                    <h2>Tokyo</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis tenetur reiciendis numquam
+                        quibusdam,
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
